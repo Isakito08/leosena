@@ -1,0 +1,73 @@
+
+
+
+.btn-warning {
+    margin-left: 50px;
+    color: #fff;
+    background-color: crimson;
+    border-color: crimson;
+}
+
+
+.py-4 {
+    padding-top: 1.5rem!important;
+    MARGIN-LEFT: -1rem;
+    padding-bottom: 1.5rem!important;
+    max-width: 1460px;
+}
+
+
+
+.btn-warning:hover{
+    background-color: white;
+    border-color:black ;
+    color: black;
+}
+
+.crear{
+
+    margin-top: 2rem;
+    border: 1px solid #39a900;
+    background-color: transparent;
+    color: #39a900;
+    margin-bottom: 2rem;
+
+}
+
+.close{
+
+
+    border: 1px solid #d70d0d;
+    background-color: transparent;
+    color: #d70d0d;
+
+
+}
+
+.impo{
+
+
+    border: 1px solid #39a900;
+    background-color: transparent;
+    color: #39a900;
+
+
+}
+
+.impo:hover{
+    background-color: #39a900;
+    color: white;
+     border: 1px solid #39a900;
+}
+
+.crear:hover{
+    background-color: #39a900;
+    color: white;
+     border: 1px solid #39a900;
+}
+
+.listado_text{
+
+    margin-bottom: 2rem;
+}
+

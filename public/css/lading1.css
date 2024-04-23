@@ -1,0 +1,805 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Poppins:wght@200;700&family=Roboto+Mono:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    height: 190vh;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #004B23;
+    height: 5rem;
+    display: flex;
+}
+
+.logo_sena {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 100%;
+
+}
+
+.titulo_navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+    font-size: 1rem;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.botones_navbar {
+    width: 20rem;
+    height: 100%;
+    margin-left: 74rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton_login {
+    color: #004B23;
+    text-align: center;
+    font-family: Poppins;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 7rem;
+    height: 2rem;
+}
+
+.boton_about {
+    color: #004B23;
+    text-align: center;
+    font-family: Poppins;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 9rem;
+    height: 2rem;
+    margin-left: 10px
+}
+
+main {
+    width: 100%;
+    height: 90%;
+    background: #006400;
+}
+
+.principal_banner {
+    width: 100%;
+    height: 37rem;
+    background: linear-gradient(180deg, #004B23 0%, rgba(0, 75, 35, 0.00) 100%);
+    display: flex;
+
+
+}
+
+.imagen_principal {
+    width: 37rem;
+    height: 37rem;
+    background: url(../img/imglading/image\ 1.png);
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.logo_sena_fondo {
+    width: 35rem;
+    height: 35rem;
+    margin-left: 38rem;
+    background-image: url(../img/imglading/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.text_pricipal {
+    font-size: 2rem;
+    background-color: transparent;
+    position: absolute;
+    text-align: center;
+    margin-top: 13rem;
+    width: 50%;
+    height: 7rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35rem;
+
+}
+
+.text_pricipal p {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    width: 50%;
+    height: 10%;
+    margin-left: 9rem;
+}
+
+.text_pricipal img {
+    margin-top: 7.5rem;
+    width: 2.5rem;
+    margin-right: 20px;
+
+}
+
+.ver_mas {
+    font-size: 0.9rem;
+    margin-right: 20px;
+}
+
+.beneficios {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+}
+
+.container_beneficios:nth-child(1) {
+    width: 50%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta1 {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    height: 25rem;
+    border-radius: 15px;
+    position: relative;
+    background-color: white;
+}
+
+.contenedor_img_beneficios{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color:grey;
+    position: absolute;
+    margin-bottom: 18rem;
+    margin-right: 29rem;
+}
+
+.contenedor_img_beneficios img{
+    width:4rem;
+    height: 4rem;
+
+}
+
+.nombre__user{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-bottom: 18rem;
+    margin-left: 5rem;
+    width: 28rem;
+    height: 2rem;
+    border: 1px solid grey;
+    text-align: center;
+    border-radius:50px ;
+}
+
+.imagen_emprendimiento{
+    position: absolute;
+    width: 12rem;
+    height: 10rem;
+    margin-right: 20rem;
+    border-radius: 20px;
+}
+
+.imagen_emprendimiento img{
+    width: 100%;
+    height: 15rem;
+    border-radius: 20px;
+}
+
+.texto_descripcion{
+    position: absolute;
+    margin-bottom: 8rem;
+    margin-left: 12rem;
+}
+
+.texto_descripcion p{
+    font-size: 1rem;
+    position: absolute;
+}
+
+.ver_mas1{
+    padding-left: 10px;
+    position: absolute;
+    margin-left: 35rem;
+    width: 4rem;
+    cursor: pointer;
+    height: 4rem;
+    border: none;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.entrar{
+    position: absolute;
+    margin-top: 30rem;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:#004B23;
+    border: none;
+    color: white;
+}
+
+.container_beneficios:nth-child(2) {
+    width: 50%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro{
+    width: 30rem;
+    height: 10rem;
+    background-color: #004B23;
+    position: relative;
+    margin-bottom: 12rem;
+    border-radius: 10px;
+}
+
+.cuadro:nth-child(2){
+    width: 30rem;
+    height: 10rem;
+    background-color: #004B23;
+    position: absolute;
+    margin-top: 24rem;
+
+}
+
+.imagenoticias{
+    width: 100%;
+    height: 10rem;
+    position: relative;
+
+}
+
+.imagenoticias img{
+    width: 30em;
+    height: 10rem;
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.text_noticias{
+    width: auto;
+    height: 2rem;
+    text-align: center;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 12rem;
+    color: white;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width:1600px){
+
+
+.logo_sena_fondo {
+    width: 35rem;
+    height: 35rem;
+    margin-left: 69rem;
+    background-image: url(../img/imglading/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text_pricipal {
+    font-size: 2rem;
+    background-color: transparent;
+    position: absolute;
+    text-align: center;
+    margin-top: 13rem;
+    width: 50%;
+    height: 7rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 57.5rem;
+}
+
+.text_pricipal p {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    width: 50%;
+    height: 10%;
+    margin-left: 14rem;
+}
+
+}
+@media screen and (max-width:767px) {
+
+    .logo_sena_fondo {
+        width: 15rem;
+        height: 15rem;
+        margin-left: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .titulo_navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 7rem;
+        height: 100%;
+        font-size: 0.5rem;
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+
+    .botones_navbar {
+        margin-left: 1.1rem;
+        width: 10rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .boton_login {
+        width: 10rem;
+        height: 2rem;
+        color: #004B23;
+        text-align: center;
+        font-family: Poppins;
+        border-radius: 28px;
+        border: none;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+
+    .boton_about {
+        width: 10rem;
+        height: 2rem;
+        font-size: 0.5rem;
+        margin-left: 1rem;
+        color: #004B23;
+        text-align: center;
+        font-family: Poppins;
+        border-radius: 28px;
+        border: none;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    main {
+        width: 100%;
+        height: 80%;
+        background: #006400;
+    }
+
+    .principal_banner {
+        width: 100%;
+        height: 1rem;
+        background: linear-gradient(180deg, #004B23 0%, rgba(0, 75, 35, 0.00) 100%);
+        display: flex;
+
+
+    }
+
+    .imagen_principal {
+        width: 15rem;
+        height: 15rem;
+        background: url(/img/image\ 1.png);
+        background-repeat: repeat;
+        background-size: cover;
+        position: absolute;
+
+    }
+
+
+    .logo_sena_fondo {
+        width: 15rem;
+        height: 15rem;
+        margin-left: 12rem;
+        background-image: url(/img/Vector.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0rem;
+    }
+
+    .text_pricipal {
+        font-size: 0.45rem;
+        background-color: transparent;
+        position: absolute;
+        text-align: right;
+        margin-top: 4rem;
+        width: 100%;
+        height: 7rem;
+        color: #FFF;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-right: 10px;
+        font-size: 0.45rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .text_pricipal p {
+        margin-top: 30px;
+        margin-left: 2rem;
+        font-size: 0.5rem;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 275;
+        line-height: normal;
+        /* width: 70%; */
+        height: 10%;
+        margin-left: 12.5rem;
+
+    }
+
+    .text_pricipal img {
+        width: 2.5rem;
+        margin-top: 45px;
+        margin-right: 5.3rem;
+    }
+
+    .ver_mas {
+        margin-right: 5rem;
+    }
+
+    .beneficios {
+        width: 100%;
+        margin-top: 14rem;
+        height: 30rem;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .logo_sena_fondo {
+        width: 15rem;
+        height: 15rem;
+        margin-left: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botones_navbar {
+        margin-left: 1.1rem;
+        width: 10rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .boton_login {
+        width: 10rem;
+        height: 2rem;
+        color: #004B23;
+        text-align: center;
+        font-family: Poppins;
+        border-radius: 28px;
+        border: none;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+
+    .boton_about {
+        width: 10rem;
+        height: 2rem;
+        font-size: 0.5rem;
+        margin-left: 1rem;
+        color: #004B23;
+        text-align: center;
+        font-family: Poppins;
+        border-radius: 28px;
+        border: none;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    main {
+        width: 100%;
+        height: 80%;
+        background: #006400;
+    }
+
+    .principal_banner {
+        width: 100%;
+        height: 15rem;
+        background: linear-gradient(180deg, #004B23 0%, rgba(0, 75, 35, 0.00) 100%);
+        display: flex;
+
+
+    }
+
+    .imagen_principal {
+        width: 13rem;
+        height: 14rem;
+        margin-right: 10rem;
+        margin-top: 16px;
+        background: url(/img/image\ 1.png);
+        background-repeat: repeat;
+        background-size: cover;
+        position: absolute;
+    }
+
+
+    .logo_sena_fondo {
+        width: 15rem;
+        height: 15rem;
+        margin-left: 10rem;
+        background-image: url(/img/Vector.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0;
+
+    }
+
+    .text_pricipal {
+        font-size: 0.45rem;
+        background-color: transparent;
+        position: absolute;
+        text-align: right;
+        margin-top: 4rem;
+        width: 100%;
+        height: 4rem;
+        color: #FFF;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 0;
+
+    }
+
+    .text_pricipal p {
+        margin-top: 30px;
+        margin-left: 2rem;
+        font-size: 0.5rem;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 275;
+        line-height: normal;
+        width: 50%;
+        height: 10%;
+        margin-left: 11.5rem;
+    }
+
+    .text_pricipal img {
+        width: 2.5rem;
+        margin-top: 45px;
+        margin-right: 5.3rem;
+    }
+
+    .ver_mas {
+        margin-right: 5rem;
+    }
+
+    .beneficios {
+        width: 100%;
+        margin-top: 0;
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .container_beneficios:nth-child(1) {
+        width: 60%;
+        height: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10rem;
+
+    }
+
+    .carta1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10rem;
+        height: 15rem;
+        border-radius: 15px;
+        background-color: white;
+    }
+
+    .contenedor_img_beneficios {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50px;
+        overflow: hidden;
+        background-color: grey;
+        position: absolute;
+        margin-bottom: 13rem;
+        margin-right: 8rem;
+    }
+
+    .nombre__user {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        align-items: center;
+        margin-bottom: 13rem;
+        margin-left: 3rem;
+        width: 6rem;
+        height: 1rem;
+        border: 1px solid grey;
+        text-align: center;
+        border-radius: 50px;
+        font-size: 0.6rem;
+    }
+
+    .imagen_emprendimiento img {
+        width: 100%;
+        height: 12rem;
+        border-radius: 20px;
+    }
+
+    .imagen_emprendimiento {
+        position: absolute;
+        width: 10rem;
+        height: 20rem;
+        margin-right: 0rem;
+        border-radius: 20px;
+        margin-top: 11rem;
+    }
+
+    .texto_descripcion {
+        position: absolute;
+        margin-bottom: 8rem;
+        font-size: 0.4rem;
+        margin-left: 0;
+    }
+
+    .texto_descripcion p {
+        display: none;
+        font-size: 0.6rem;
+        position: absolute;
+    }
+
+    .ver_mas1 {
+        padding-left: 17px;
+        position: revert;
+        margin-left: 9.5rem;
+        width: 3rem;
+        cursor: pointer;
+        height: 3rem;
+        border: none;
+        font-size: 2rem;
+        background-color: white;
+        border-radius: 50px;
+    }
+
+    .entrar {
+        position: absolute;
+        margin-top: 17.5rem;
+        font-size: 0.56rem;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #004B23;
+        border: none;
+        color: white;
+    }
+
+    .container_beneficios:nth-child(2) {
+        width: 50%;
+        height: 30rem;
+        margin-bottom: 10rem;
+
+    }
+
+    .cuadro {
+        overflow: hidden;
+        width: 10rem;
+        height: 8rem;
+        background-color: #004B23;
+        position: relative;
+        margin-bottom: 6rem;
+        border-radius: 10px;
+    }
+
+    .imagenoticias {
+        width: 10rem;
+        height: 8rem;
+        position: relative;
+    }
+
+    .imagenoticias img {
+        width: auto;
+        height: 8rem;
+        opacity: 0.5;
+        position: absolute;
+    }
+
+    .text_noticias {
+        width: 20rem;
+        height: 2rem;
+        text-align: center;
+        position: absolute;
+        margin-top: 3rem;
+        margin-left: -5rem;
+        color: white;
+    }
+
+}
